@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Razeak - Noticias</title>
+
+  <link rel="shortcut icon" href="img/x-icon.jpg" type="image/x-icon">
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="css/styles.css" />
+
+  <link rel="stylesheet" href="css/footer.css" />
+
+  <!-- js animation-letter -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+  <!-- Jquery -->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+</head>
+
+<body onload="animationImgs()">
+  <div class="containers">
+    <header>
+      <div class="contenedor1">
+        <div class="subcontenedor1">
+          <span><i class="icon fas fa-envelope"></i>Razeak@razeak.com</span>
+        </div>
+        <div class="subcontenedor2">
+          <a href=""><img src="img/razeak.png" alt="" /></a>
+        </div>
+        <div class="subcontenedor3">
+          <span><i class="icon fas fa-search"></i>Buscar</span>
+        </div>
+      </div>
+      <div class="contenedor2">
+        <ul>
+          <li><a href="index.html" class="primar">Inicio</a></li>
+          <li><a href="servicios.html">Servicios</a></li>
+          <li><a href="noticias.html" class="primary">Noticias</a></li>
+          <li><a href="nosotros.html">Nosotros</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+        <div class="subsub2">
+          <a href=""><i class="icons fab fa-instagram fa-2x"></i></a>
+          <a href=""><i class="icons fab fa-linkedin fa-2x"></i></a>
+          <a href=""><i class="icons fab fa-twitter fa-2x"></i></a>
+          <a href=""><i class="icons fab fa-facebook fa-2x"></i></a>
+        </div>
+      </div>
+    </header>
+  </div>
+  <main class="contenedor-noticias">
+    <section class="flex-container">
+      <div class="articulo-izquierdo">
+        <h1 class="ml11">
+          <span class="text-wrapper">
+            <span class="line line1"></span>
+            <span class="letters">|Noticias|</span>
+          </span>
+        </h1>
+
+        <div class="img-text">
+          <img src=".//img/11.jpeg" alt="" />
+          <p title="Ver más...">
+            <b>Microsoft permitirá instalar Windows 11 en PC antiguos, pero no
+              recibirán actualizaciones.</b>
+            La compañía estadounidense informó al portal The Verge de que no
+            impedirá que los usuarios de ordenadores que no cumplan los
+            requisitos mínimos de ‘hardware’ instalen Windows 11. Se trata de
+            un proceso que Microsoft no recomendará ni anunciará a los
+            usuarios. <br /> <br>
+            <a href="#" class="ss">Ver más</a>
+          </p>
+        </div>
+        <div class="img-text">
+          <img title="Ver más..." src=".//img/componentes1.jpg" alt="" />
+          <p title="Ver más...">
+            <b>Precio de componentes de segunda mano estan en aumento de
+              precio.</b>
+            Esta subida de los precios es consecuencia del temor a que haya
+            problemas de suministro en las exportaciones, algo bastante
+            posible teniendo en cuenta que el 40% de todas las memorias NAND
+            que se distribuyen en el mundo proceden de Japón y un 13% de las
+            DRAM provienen del país nipón.<br /> <br>
+            <a href="#" class="ss">Ver más</a>
+          </p>
+        </div>
+        <div class="img-text">
+          <img title="Ver más..." src=".//img/laptop.jpg" alt="" />
+          <p title="Ver más...">
+            <b>La venta de laptops en el Perú incrementó un 40% durante los
+              meses de pandemia</b>
+            La pandemia provocada por la COVID-19 produjo que varios sectores
+            económicos enfrenten retos diferentes a los que estaban
+            acostumbrados. Uno de ellos es el de laptops, mercado que ha visto
+            un incremento en un 40% desde junio pasado, aproximadamente.
+            Sumado a esto, el ticket de compra, es decir, el gasto de laptops
+            en general.<br /> <br>
+            <a href="#" class="ss">Ver más</a>
+          </p>
+        </div>
+        <div class="img-text">
+          <img title="Ver más..." src=".//img/cuantica.jpg" alt="" />
+          <p title="Ver más...">
+            <b>Google planea tener una computadora cuántica funcional para
+              2029</b>
+            ¿Qué significa esto? Que tenga, al menos un millón de qubits, la
+            pieza mínima de información que procesan estas computadoras,
+            basadas en mecánica cuántica y que, por ahora, son piezas de
+            laboratorio, y mucho más modestas: en el orden del centenar de
+            qubits en los modelos más avanzados..<br />
+            <br>
+            <a href="#" class="ss">Ver más</a>
+          </p>
+        </div>
+
+        <nav class="buttons">
+          <div class="buttons-center pagination">
+            <button class="prev">Anterior</button>
+            <button class="pageNumber active">1</button>
+            <button class="pageNumber">2</button>
+            <button class="pageNumber">3</button>
+            <button class="pageNumber">4</button>
+            <button class="pageNumber">5</button>
+            <button class="next">Siguiente</button>
+          </div>
+        </nav>
+      </div>
+
+      <div class="articulo-derecho">
+        <h2 class="ml3"></h2>
+        <div class="img-anuncios">
+          <img id="imgCam" src="img/anuncio2.jpg" alt="anuncio_2" />
+          <img id="imgCam2" src="img/anuncio3.jpg" alt="anuncio_3" />
+          <img id="imgCam3" src="img/anuncio1.jpg" alt="pc_gaming" />
+        </div>
+      </div>
+    </section>
+  </main>
+  <div class="footer">
+    <footer>
+      <div>
+        <p>
+          Copyright &copy; 2023 | Todos los Derechos Reservados
+          <a href="">Razeak</a>
+        </p>
+      </div>
+      <div>
+        <ul>
+          <li><a href="">Inicio</a></li>
+          <li><a href="">Terminos</a></li>
+          <li><a href="">Politica de Privacidad</a></li>
+          <li><a href="">Contacto</a></li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+  <script src=".//js/main.js"></script>
+</body>
+</html>

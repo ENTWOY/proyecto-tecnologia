@@ -1,0 +1,51 @@
+@import url(footer.css);
+@import url(header.css);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 35px;
+    color: #26abca;
+    margin-top: 25px;
+    width: 50%;
+}
+
+center p {
+    margin-top: 25px;
+    font-size: 20px;
+    color: #6a6a6a;
+    width: 50%;
+    align-items: center;
+    text-align: justify;
+}
+
+#principal {
+    min-height: 100vh;
+    background-color: bisque no-repeat center center fixed;
+    background-size: cover;
+}
+
+.banner {
+    width: 1349px;
+    height: 400px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.slides {
+    display: block;
+    width: 8000px;
+    height: 400px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.slide {
+    float: left;
+    width: 1349px;
+    height: 100%;
+}

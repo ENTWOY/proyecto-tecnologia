@@ -1,0 +1,44 @@
+.footer {
+  background-color: #202020;
+  height: 60px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  position: relative;
+  margin: auto;
+  max-width: 1210px;
+}
+
+footer p {
+  position: absolute;
+  top: 5%;
+  color: #878787;
+  transform: translate(0%, 100%);
+}
+
+footer p a {
+  color: #878787;
+  text-decoration: none;
+}
+
+footer ul {
+    flex-direction: row;
+  list-style: none;
+}
+
+footer ul li {
+  display: inline-block;
+}
+
+footer ul li a {
+  position: relative;
+  font-size: 16px;
+  display: block;
+  color: #878787;
+  text-decoration: none;
+  padding: 4px 0;
+  margin: 16px 10px;
+}
