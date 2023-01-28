@@ -10,7 +10,7 @@ No link at the moment.
 
 ## Screenshot
 
-![image](https://user-images.githubusercontent.com/85379478/215292632-c366a8b1-1159-4c11-bbac-f05639b8ba00.png)
+![image](https://user-images.githubusercontent.com/85379478/215292712-25c2cdf8-3565-4e36-8b17-eda43bfed8f2.png)
 
 ![image](https://user-images.githubusercontent.com/85379478/215292541-a298b33c-3e8f-4d8f-a7d0-1eb71ae14650.png)
 
