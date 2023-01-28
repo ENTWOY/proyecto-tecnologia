@@ -1,8 +1,6 @@
-# proyecto-tecnologia
-Pagina web de tecnología con HTML, CSS y JS
+<h1 align="center">Razeak</h1>
 
 <p align="center">
-  ## proyecto-tecnologia
+  Pagina web de servicios técnicos con HTML, CSS y JS
 </p>
 
-<h1 align="center">Material Bread</h1>
