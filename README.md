@@ -1,7 +1,7 @@
 <h1 align="center">Razeak</h1>
 
 <p align="center">
-  Pagina web de una plataforma que ofrece servicios técnicos.
+  Razeak es una página web que ofrece servicios técnicos.
 </p>
 
 ## Check it live here
