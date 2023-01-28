@@ -8,7 +8,7 @@
 
 [No link at the moment.](https://choosealicense.com/licenses/mit/)
 
-## Screenshot
+## Screenshots
 
 ![image](https://user-images.githubusercontent.com/85379478/215292712-25c2cdf8-3565-4e36-8b17-eda43bfed8f2.png)
 
