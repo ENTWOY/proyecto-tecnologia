@@ -6,7 +6,7 @@
 
 ## Check it live here
 
-No link at the moment.
+[No link at the moment.](https://choosealicense.com/licenses/mit/)
 
 ## Screenshot
 
