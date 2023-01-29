@@ -6,7 +6,7 @@
 
 ## Check it live here
 
-[No link at the moment.](https://choosealicense.com/licenses/mit/)
+[https://neidenn.github.io/proyecto-tecnologia/](https://neidenn.github.io/proyecto-tecnologia/)
 
 ## Screenshots
 
